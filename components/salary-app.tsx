@@ -1,4 +1,4 @@
-D'use client'
+'use client'
 
 import * as React from 'react'
 import { LockIcon } from 'lucide-react'
