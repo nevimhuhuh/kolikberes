@@ -1,10 +1,10 @@
-'use client'
+D'use client'
 
 import * as React from 'react'
 import { LockIcon } from 'lucide-react'
 
 import { SalaryDatabase } from '@/components/salary-database'
-import { SalaryForm, type SalaryFormValues } from '@/components/salary-form'
+import SalaryForm, { type SalaryFormValues } from '@/components/salary-form'
 import { SalaryResults } from '@/components/salary-results'
 import { WageMapSection } from '@/components/wage-map-section'
 import {
