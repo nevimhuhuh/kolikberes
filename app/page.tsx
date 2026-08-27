@@ -1,8 +1,8 @@
 "use client"
 
-import MouseSpotlight from "../components/MouseSpotlight"
-import TiltCard from "../components/TiltCard"
-import { OBORY_A_POZICE, KRAJE } from "../lib/salary-data"
+import MouseSpotlight from "@/components/MouseSpotlight"
+import TiltCard from "@/components/TiltCard"
+import { OBORY_A_POZICE, KRAJE } from "@/lib/salary-data"
 
 export default function Home() {
   return (
