@@ -156,3 +156,28 @@ export const KRAJE = [
   "Zlínský kraj",
   "Moravskoslezský kraj"
 ]
+
+export const BENEFITY = [
+  "Home Office",
+  "Flexibilní pracovní doba",
+  "Stravenky / Gastro karta",
+  "13. plat / Bonusy",
+  "Auto i k soukromým účelům",
+  "Vzdělávací kurzy"
+]
+
+// Mock data pro zpětnou kompatibilitu starých komponent
+export const salaryData: SalaryEntry[] = [
+  {
+    id: "1",
+    pozice: "25121 — Frontend Vývojář",
+    obor: "IT, Vývoj & Data",
+    kraj: "Hlavní město Praha",
+    uvazek: "Plný úvazek",
+    praxe: "3–5 let",
+    mzda: 65000,
+    spokojenost: 4,
+    benefity: ["Home Office", "Sick days"],
+    pridano: "2026-01-15"
+  }
+]
